@@ -6,8 +6,11 @@
 #     A = 2; B = 3 -> 8 
 
 
+
 def f(a, b):
     if b < 2:
         return a
     return f(a, b - 1) * a
+a = int(input())
+b = int(input())
 print (f(a, b))
